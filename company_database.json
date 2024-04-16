@@ -1,0 +1,82 @@
+[
+    {
+        "Client_Name": "Lumir Podlezl",
+        "Contract_ID": 5,
+        "Client_ID": 10,
+        "Start_Date": "15-04-2023",
+        "End_Date": "12-04-2026",
+        "Amount": 1000.0
+    },
+    {
+        "Client_Name": "Milos Mach",
+        "Contract_ID": 2,
+        "Client_ID": 22,
+        "Start_Date": "03-11-2020",
+        "End_Date": "09-6-2021",
+        "Amount": 500.0
+    },
+    {
+        "Client_Name": "Pavla Cermakova",
+        "Contract_ID": 8,
+        "Client_ID": 81,
+        "Start_Date": "01-01-2024",
+        "End_Date": "01-01-2030",
+        "Amount": 2330.0
+    },
+    {
+        "Client_Name": "Lumir Podlezl",
+        "Contract_ID": 10,
+        "Client_ID": 10,
+        "Start_Date": "15-04-2023",
+        "End_Date": "12-04-2026",
+        "Amount": 1500.0
+    },
+    {
+        "Client_Name": "Tomas Ulrich",
+        "Contract_ID": 4,
+        "Client_ID": 11,
+        "Start_Date": "01-04-2024",
+        "End_Date": "01-10-2024",
+        "Amount": 666.0
+    },
+    {
+        "Client_Name": "Milos Mach",
+        "Contract_ID": 12,
+        "Client_ID": 22,
+        "Start_Date": "05-12-2021",
+        "End_Date": "31-06-2025",
+        "Amount": 24000.0
+    },
+    {
+        "Client_Name": "Sona Kopkova",
+        "Contract_ID": 1,
+        "Client_ID": 25,
+        "Start_Date": "08-06-2018",
+        "End_Date": "08-12-2020",
+        "Amount": 800.0
+    },
+    {
+        "Client_Name": "Jaroslav Kuty",
+        "Contract_ID": 9,
+        "Client_ID": 3,
+        "Start_Date": "27-01-2022",
+        "End_Date": "01-01-2024",
+        "Amount": 15000.0
+    },
+    {
+        "Client_Name": "Petr Masarik",
+        "Contract_ID": 15,
+        "Client_ID": 12,
+        "Start_Date": "08-03-2023",
+        "End_Date": "08-09-2024",
+        "Amount": 7700
+    },
+    {
+        "Client_Name": "Radka Richterova",
+        "Contract_ID": 13,
+        "Client_ID": 8,
+        "Start_Date": "01-01-2020",
+        "End_Date": "01-01-2028",
+        "Amount": 120000
+    }
+]
