@@ -26,12 +26,12 @@ class ContractDatabase:
         Add a new contract.
 
         Parameters:
-        Client_Name - client's name.
-        Contract_ID - contract's ID.
-        Client_ID - client's ID.
-        Start_Date - contract's start date.
-        End_Date - contarct's expiring date.
-        Amount - amount paid by client.
+        - Client_Name - client's name.
+        - Contract_ID - contract's ID.
+        - Client_ID - client's ID.
+        - Start_Date - contract's start date.
+        - End_Date - contarct's expiring date.
+        - Amount - amount paid by client.
 
         Creates a new contract in .json file.
         """
@@ -152,13 +152,13 @@ class ContractDatabase:
         Update an existing contract.
 
         Parameters:
-        Contract_ID - contract's ID to update.
-        Client_Name_new - new client's name.
-        Contract_ID_new - new contract's ID.
-        Client_ID_new - new client's ID.
-        Start_Date_new - new contract's start date.
-        End_Date_new - new contract's expiration date.
-        Amount_new - new client's paid amount.
+        - Contract_ID - contract's ID to update.
+        - Client_Name_new - new client's name.
+        - Contract_ID_new - new contract's ID.
+        - Client_ID_new - new client's ID.
+        - Start_Date_new - new contract's start date.
+        - End_Date_new - new contract's expiration date.
+        - Amount_new - new client's paid amount.
 
         Updates info of an existing contract in .json file by its Contract_ID.
         """
@@ -314,7 +314,7 @@ class ContractDatabase:
         Find an existing contract by Contract_ID.
 
         Parameters:
-        Contract_ID - contract's ID to find.
+        - Contract_ID - contract's ID to find.
 
         Finds an existing contract in .json file by its Contract_ID.
         """
@@ -346,7 +346,7 @@ class ContractDatabase:
         Find an existing contracts by Client_ID.
 
         Parameters:
-        Client_ID - client's ID to find his contracts.
+        - Client_ID - client's ID to find his contracts.
 
         Finds some client's existing contracts in .json file by his Client_ID.
         """
@@ -382,13 +382,13 @@ class ContractDatabase:
         Sort contracts.
 
         Parameters:
-        operation - sort by [1-3], where:
-            1 - by Contract_ID.
-            2 - by Client_ID.
-            3 - by Amount.
-        ascending - type of sort [1,2], where:
-            1 - ascending.
-            2 - descending.
+        - operation - sort by [1-3], where:
+            - 1 - by Contract_ID.
+            - 2 - by Client_ID.
+            - 3 - by Amount.
+        - ascending - type of sort [1,2], where:
+            - 1 - ascending.
+            - 2 - descending.
 
         Sorts contracts from .json file.
         """
@@ -497,9 +497,9 @@ class ContractDatabase:
         Print contracts from .json file.
 
         Parameters:
-        option - method of printing the database [1,2], where:
-            1 - using "for" cycle.
-            2 - using "file(read())".
+        - option - method of printing the database [1,2], where:
+            - 1 - using "for" cycle.
+            - 2 - using "file(read())".
 
         Prints all contracts from .json file.
         """
@@ -545,7 +545,7 @@ class ContractDatabase:
         Write contracts to .json file.
 
         Parameters:
-        contracts - list of contracts.
+        - contracts - list of contracts.
 
         Writes updated contracts to .json file.
         """

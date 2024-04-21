@@ -8,8 +8,8 @@ def int_positive_check(x):
     Check if the character(s) is a positive integer.
 
     Returns:
-    False - the character(s) is not a positive integer.
-    True - the character(s) is a positive integer.
+    - False - the character(s) is not a positive integer.
+    - True - the character(s) is a positive integer.
     >>> int_positive_check(2)
     True
     >>> int_positive_check(s)
@@ -33,8 +33,8 @@ def float_check(x):
     Check if the character(s) is a floating point number.
 
     Returns:
-    False - the character(s) is not a floating point number.
-    True - in case the character(s) is a floating point number.
+    - False - the character(s) is not a floating point number.
+    - True - in case the character(s) is a floating point number.
     >>> float_check(2.2)
     True
     >>> float_check(11)
@@ -55,8 +55,8 @@ def date_check(x):
     Check if the string is a date if format dd-mm-yyyy.
 
     Returns:
-    False - the string is not a date in format dd-mm-yyyy.
-    True - the string is a date in format dd-mm-yyyy.
+    - False - the string is not a date in format dd-mm-yyyy.
+    - True - the string is a date in format dd-mm-yyyy.
     >>> date_check(05-01-2024)
     True
     >>> date_check(2024-01-05)

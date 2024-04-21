@@ -1,4 +1,4 @@
-"""Contract records."""
+"""Interface for interacting with the contact database."""
 
 from class_ES import ContractDatabase
 import value_check
