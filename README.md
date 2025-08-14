@@ -10,7 +10,7 @@ Includes 3 files:
 2. class_ES.py - class with all needed functions to interact with contracts.
 3. value_check.py - int/float/date checks.
 
-![logo.png](../Semester_project/logo.png)
+![logo.png](logo.png)
 
 Contracts include next information:
 1. Client's name and surname.
