@@ -3,7 +3,7 @@
 Python database of contracts.
 Created to interact with contract's information such as client's name, ID, contract's ID, contract's start and end dates, amount paid by client.
 
-Author: Sviatoslav Balema <s_balema@utb.cz>
+Author: Sviatoslav Balema
 
 Includes 3 files:
 1. main.py - user's interface for real-time interaction.
